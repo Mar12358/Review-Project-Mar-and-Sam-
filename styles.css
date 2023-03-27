@@ -1,0 +1,35 @@
+
+#navbar-ul {
+    list-style: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    width: 100%;
+    justify-content: space-between;
+}
+#description {
+    width: 50%;
+    float: left;
+    overflow-x: auto;
+ 
+}
+
+#desc-and-preview {
+    display: flex;
+}
+
+#main-vid {
+    margin-top: 50px;
+}
+#previewList {
+    list-style: none;
+    
+    
+}
+ul#previewList li {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
